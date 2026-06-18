@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package vu.coursework1;
 
 import java.util.Date;
@@ -16,7 +13,6 @@ public class Loan {
         this.member = member;
         this.book = book;
         this.borrowDate = new Date(); // Current system time 
-        // Due date logic (e.g., 14 days) could be added here
     }
 
     public BookClass getBook() { return book; }
